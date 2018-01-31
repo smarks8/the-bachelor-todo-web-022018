@@ -2,6 +2,7 @@ def get_first_name_of_season_winner(data, season)
   data.each do |seasons, contestant_array|
     if seasons = season
       seasons.each do |person, person_hash|
+        if person_hash[:status] == 'Winner'
         
       
 end
