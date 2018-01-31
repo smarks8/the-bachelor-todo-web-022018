@@ -39,5 +39,7 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
+  total = 0 
+  num_of_people = 0
   data[season].each do |contestant_hash|
 end
